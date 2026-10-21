@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "A vertical platform-jumping browser game built with JavaScript and Canvas.",
   "main": "index.js",
-  "dependencies": {
-    "serve": "^9.1.0"
+  "engines": {
+    "node": ">=22.18.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "serve": "14.2.6"
+  },
   "scripts": {
-    "start": "./node_modules/.bin/serve ."
+    "start": "serve ."
   },
   "author": "IRL",
   "license": "MIT"

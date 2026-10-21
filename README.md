@@ -4,6 +4,8 @@ JavaScript and Canvas without a game library. Jump between scrolling platforms a
 landing on them.
 
 ## Usage
+Use Node.js 22.18 or newer.
+
 ```sh
 npm install
 npm start
