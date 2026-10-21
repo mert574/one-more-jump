@@ -1,4 +1,4 @@
-# Doodle Jump
+# One More Jump
 A vertical platform-jumping browser game built with JavaScript and Canvas,
 without a game library. Jump between scrolling platforms and earn points for
 landing on them.
@@ -13,7 +13,7 @@ Use A/D or Left/Right to move. Press Space, W or Up to start and jump;
 press again in the air for a double jump. S or Down moves downward.
 
 ## Demo
-[Play Now](https://mert574.github.io/doodle-jump/)
+[Play Now](https://mert574.github.io/one-more-jump/)
 
 ## License
 

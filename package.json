@@ -1,7 +1,7 @@
 {
-  "name": "doodle-jump",
+  "name": "one-more-jump",
   "version": "1.0.0",
-  "description": "A doodle jump game basics using only JS/Canvas.",
+  "description": "A vertical platform-jumping browser game built with JavaScript and Canvas.",
   "main": "index.js",
   "dependencies": {
     "serve": "^9.1.0"
