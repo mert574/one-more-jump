@@ -1,6 +1,6 @@
 # One More Jump
-A vertical platform-jumping browser game built with JavaScript and Canvas,
-without a game library. Jump between scrolling platforms and earn points for
+A vertical platform-jumping browser game inspired by Doodle Jump, built with
+JavaScript and Canvas without a game library. Jump between scrolling platforms and earn points for
 landing on them.
 
 ## Usage
