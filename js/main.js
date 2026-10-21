@@ -58,21 +58,22 @@ function init() {
 		}
 		
 		if (gameStarted && keyState){
-			jumpSound.seek = 0;
+			jumpSound.currentTime = 0;
 			jumpSound.play();
 		}
 	});
 
-	bgMusic = new Audio('sound/bg.mp3');
-	jumpSound = new Audio('sound/jump.mp3');
-	groundSound = new Audio('sound/hit.mp3');
+	bgMusic = new Audio('sound/background.wav');
+	bgMusic.loop = true;
+	jumpSound = new Audio('sound/jump.wav');
+	groundSound = new Audio('sound/landing.wav');
 
 	bgImg = new Image();
-	bgImg.src = 'img/bg.jpg';
+	bgImg.src = 'img/background.svg';
 
 	jumpSound.volume = 0.25;
 	groundSound.volume = 0.15;
-	bgMusic.volume = 0.85;
+	bgMusic.volume = 0.35;
 }
 
 function start() {
@@ -125,7 +126,7 @@ function update() {
 						if (player.collidingWith != lastCollidingWith) {
 							lastCollidingWith = player.collidingWith;
 							player.score++;
-							groundSound.seek = 0.2;
+							groundSound.currentTime = 0;
 							groundSound.play();
 						}
 					}

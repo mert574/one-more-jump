@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="800" viewBox="0 0 400 800">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#142a46"/><stop offset="1" stop-color="#729dba"/>
+    </linearGradient>
+    <pattern id="stars" width="130" height="180" patternUnits="userSpaceOnUse">
+      <circle cx="22" cy="34" r="1.5" fill="#edf4d5" opacity=".7"/>
+      <circle cx="103" cy="112" r="1" fill="#edf4d5" opacity=".5"/>
+    </pattern>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h400v800H0z"/>
+  <path fill="url(#stars)" d="M0 0h400v800H0z"/>
+  <circle cx="318" cy="95" r="29" fill="#f4edcc"/>
+  <g fill="#c6dce0" opacity=".18">
+    <path d="M-20 190q22-28 48-14 18-40 48-10 32-8 45 24z"/>
+    <path d="M260 350q14-25 37-19 25-40 51-9 30-9 62 28z"/>
+    <path d="M-20 540q24-25 49-13 22-35 48-10 40-12 58 23z"/>
+  </g>
+  <path d="m0 720 65-125 48 77 68-137 85 150 58-111 76 146v80H0z" fill="#365c75" opacity=".65"/>
+  <path d="m0 777 82-90 64 59 81-105 72 92 57-69 44 82v54H0z" fill="#244458" opacity=".8"/>
+</svg>
